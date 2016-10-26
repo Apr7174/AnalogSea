@@ -5,6 +5,10 @@
 body {
 	background-color: #298eea;
 	font-family: 'Roboto', helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	padding-top: 60px;
+
 }
 
 .logo {
@@ -12,17 +16,16 @@ body {
 	height: 35px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 40px;
-	margin-bottom: 20px;	
+	margin-top: 0px;
+	margin-bottom: 30px;	
 }
 
 .sign-up {
 	display: block;
 	width: 400px;
 	background-color: white;
-	padding: 15px;
-	margin-left: auto;
-	margin-right: auto;
+	padding: 40px;
+	margin: 0 auto;
 	border-radius: 3px;
 }
 
@@ -35,13 +38,13 @@ body {
 
 label {
 	display: block;
-	padding-left: 10px;
 }
 
 input {
 	padding: 15px;
 	background: #fcfcfc;
 	border: 2px solid #e7e7e7;
+	border-radius: 3px;
 	width: 100%;
 	margin: 20px auto;
 	font-size: 18px;
@@ -56,4 +59,19 @@ button {
     padding: 15px;
     border: 2px solid #15CD72;
     border-radius: 3px;
+    font-size: 22px;
+}
+
+form a {
+	color: #999;
+}
+
+form p {
+	text-align: center;
+}
+
+.footer, .footer a {
+	color: white;
+	display: inline;
+	text-align: center;
 }
